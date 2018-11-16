@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_edit</name>
+   <tag></tag>
+   <elementGuidId>9855890e-8ae4-4f14-8965-09c8e2dfead9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;user-links&quot;)/li[@class=&quot;dropdown&quot;]/details[@class=&quot;details-overlay details-reset d-flex pl-2 flex-items-center&quot;]/summary[@class=&quot;HeaderNavlink name mt-1&quot;]/span[@class=&quot;dropdown-caret&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[4]/div/div/div[1]/div/div[1]/ul/li[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-caret</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-links&quot;)/li[@class=&quot;dropdown&quot;]/details[@class=&quot;details-overlay details-reset d-flex pl-2 flex-items-center&quot;]/summary[@class=&quot;HeaderNavlink name mt-1&quot;]/span[@class=&quot;dropdown-caret&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

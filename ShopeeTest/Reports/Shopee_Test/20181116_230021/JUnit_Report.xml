@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Shopee_Test" time="132" tests="3" failures="1" errors="0">
+   <testsuite name="Shopee_Test" tests="3" failures="1" errors="0" time="132" timestamp="2018-11-16 23:00:23" hostname="rachmat - 192.168.56.1" id="Test Suites/Shopee_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rachmat/Katalon Studio/ShopeeTest/Reports/Shopee_Test/20181116_230021"/>
+         <property name="logFiles" value="/Users/rachmat/Katalon Studio/ShopeeTest/Reports/Shopee_Test/20181116_230021/execution0.log"/>
+         <property name="attachments" value="/Users/rachmat/Katalon Studio/ShopeeTest/Reports/Shopee_Test/20181116_230021/1542384130694.png"/>
+         <property name="hostName" value="rachmat - 192.168.56.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="7920e1bd-7840-fb4a-b488-5d2f960ceb96"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/1.create gist" classname="Test Cases/1.create gist" status="PASSED">
+         <system-out><![CDATA[2018-11-16 23:00:24 - [TEST_CASE][PASSED] - Test Cases/1.create gist: Test Cases/1.create gist
+
+2018-11-16 23:00:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-16 23:00:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 23:00:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://github.com/' successfully
+
+2018-11-16 23:00:37 - [MESSAGE][PASSED] - Navigate to 'https://github.com/' successfully
+
+2018-11-16 23:00:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_The worlds leading software de/a_Sign in' is clicked on
+
+2018-11-16 23:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The worlds leading software de/a_Sign in' is clicked on
+
+2018-11-16 23:00:38 - [TEST_STEP][PASSED] - setText: Text 'frogin21' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email addres'
+
+2018-11-16 23:00:38 - [MESSAGE][PASSED] - Text 'frogin21' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email addres'
+
+2018-11-16 23:00:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2018-11-16 23:00:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2018-11-16 23:00:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2018-11-16 23:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2018-11-16 23:00:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/span_New organization_dropdown' is clicked on
+
+2018-11-16 23:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/span_New organization_dropdown' is clicked on
+
+2018-11-16 23:00:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/a_Your gists' is clicked on
+
+2018-11-16 23:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/a_Your gists' is clicked on
+
+2018-11-16 23:00:45 - [TEST_STEP][PASSED] - setText: Text 'Hello.java' is set on object 'Object Repository/Page_Create a new Gist/input_Instantly share code not'
+
+2018-11-16 23:00:45 - [MESSAGE][PASSED] - Text 'Hello.java' is set on object 'Object Repository/Page_Create a new Gist/input_Instantly share code not'
+
+2018-11-16 23:00:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create a new Gist/div_1' is clicked on
+
+2018-11-16 23:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create a new Gist/div_1' is clicked on
+
+2018-11-16 23:00:45 - [TEST_STEP][PASSED] - setText: Text 'public class Hello{
+public statis void main (String args[]){
+System.out.println(“Hello Shopee”)
+}
+}' is set on object 'Object Repository/Page_Create a new Gist/div_1public class Hello2public'
+
+2018-11-16 23:00:46 - [MESSAGE][PASSED] - Text 'public class Hello{
+public statis void main (String args[]){
+System.out.println(“Hello Shopee”)
+}
+}' is set on object 'Object Repository/Page_Create a new Gist/div_1public class Hello2public'
+
+2018-11-16 23:00:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Create a new Gist/button_Create public gist' is clicked on
+
+2018-11-16 23:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create a new Gist/button_Create public gist' is clicked on
+
+2018-11-16 23:00:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-16 23:00:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.Edit gist" classname="Test Cases/2.Edit gist" status="PASSED">
+         <system-out><![CDATA[2018-11-16 23:00:50 - [TEST_CASE][PASSED] - Test Cases/2.Edit gist: Test Cases/2.Edit gist
+
+2018-11-16 23:00:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-16 23:00:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 23:00:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://github.com/' successfully
+
+2018-11-16 23:00:59 - [MESSAGE][PASSED] - Navigate to 'https://github.com/' successfully
+
+2018-11-16 23:00:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_The worlds leading software de/a_Sign in' is clicked on
+
+2018-11-16 23:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The worlds leading software de/a_Sign in' is clicked on
+
+2018-11-16 23:01:00 - [TEST_STEP][PASSED] - setText: Text 'frogin21' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email addres'
+
+2018-11-16 23:01:00 - [MESSAGE][PASSED] - Text 'frogin21' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email addres'
+
+2018-11-16 23:01:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2018-11-16 23:01:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2018-11-16 23:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2018-11-16 23:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2018-11-16 23:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/span_New organization_dropdown' is clicked on
+
+2018-11-16 23:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/span_New organization_dropdown' is clicked on
+
+2018-11-16 23:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/a_Your gists' is clicked on
+
+2018-11-16 23:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/a_Your gists' is clicked on
+
+2018-11-16 23:01:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/click hello' is clicked on
+
+2018-11-16 23:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/click hello' is clicked on
+
+2018-11-16 23:01:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/button_edit' is clicked on
+
+2018-11-16 23:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/button_edit' is clicked on
+
+2018-11-16 23:01:09 - [TEST_STEP][PASSED] - setText: Text '
+public class Hello{
+public statis void main (String args[]){
+System.out.println(“Hello Shopee Edit”)
+}
+}' is set on object 'Object Repository/Page_Create a new Gist/div_1public class Hello2public'
+
+2018-11-16 23:01:09 - [MESSAGE][PASSED] - Text '
+public class Hello{
+public statis void main (String args[]){
+System.out.println(“Hello Shopee Edit”)
+}
+}' is set on object 'Object Repository/Page_Create a new Gist/div_1public class Hello2public'
+
+2018-11-16 23:01:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/push' is clicked on
+
+2018-11-16 23:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/push' is clicked on
+
+2018-11-16 23:01:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-16 23:01:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3.Delete gist" classname="Test Cases/3.Delete gist" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_GitHub/button_delete' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GitHub/button_delete' located by 'By.xpath: //button[@class = 'btn btn-sm btn-danger' and @type = 'submit']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542380676466.run(Script1542380676466.groovy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542384021839.run(TempTestSuite1542384021839.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 23:01:12 - [TEST_CASE][FAILED] - Test Cases/3.Delete gist: Test Cases/3.Delete gist FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_GitHub/button_delete' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GitHub/button_delete' located by 'By.xpath: //button[@class = 'btn btn-sm btn-danger' and @type = 'submit']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542380676466.run(Script1542380676466.groovy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542384021839.run(TempTestSuite1542384021839.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 23:01:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-16 23:01:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 23:01:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://github.com/' successfully
+
+2018-11-16 23:01:25 - [MESSAGE][PASSED] - Navigate to 'https://github.com/' successfully
+
+2018-11-16 23:01:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_The worlds leading software de/a_Sign in' is clicked on
+
+2018-11-16 23:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The worlds leading software de/a_Sign in' is clicked on
+
+2018-11-16 23:01:27 - [TEST_STEP][PASSED] - setText: Text 'frogin21' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email addres'
+
+2018-11-16 23:01:27 - [MESSAGE][PASSED] - Text 'frogin21' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email addres'
+
+2018-11-16 23:01:27 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2018-11-16 23:01:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2018-11-16 23:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2018-11-16 23:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2018-11-16 23:01:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/span_New organization_dropdown' is clicked on
+
+2018-11-16 23:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/span_New organization_dropdown' is clicked on
+
+2018-11-16 23:01:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/a_Your gists' is clicked on
+
+2018-11-16 23:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/a_Your gists' is clicked on
+
+2018-11-16 23:01:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/click hello' is clicked on
+
+2018-11-16 23:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/click hello' is clicked on
+
+2018-11-16 23:01:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_GitHub/button_delete' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GitHub/button_delete' located by 'By.xpath: //button[@class = 'btn btn-sm btn-danger' and @type = 'submit']' not found)
+
+2018-11-16 23:02:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_GitHub/button_delete' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GitHub/button_delete' located by 'By.xpath: //button[@class = 'btn btn-sm btn-danger' and @type = 'submit']' not found)
+[[ATTACHMENT|/Users/rachmat/Katalon Studio/ShopeeTest/Reports/Shopee_Test/20181116_230021/1542384130694.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 23:01:12 - [TEST_CASE][FAILED] - Test Cases/3.Delete gist: Test Cases/3.Delete gist FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_GitHub/button_delete' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GitHub/button_delete' located by 'By.xpath: //button[@class = 'btn btn-sm btn-danger' and @type = 'submit']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542380676466.run(Script1542380676466.groovy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542384021839.run(TempTestSuite1542384021839.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4.View All gist" classname="Test Cases/4.View All gist" status="PASSED">
+         <system-out><![CDATA[2018-11-16 23:02:10 - [TEST_CASE][PASSED] - Test Cases/4.View All gist: Test Cases/4.View All gist
+
+2018-11-16 23:02:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-16 23:02:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-16 23:02:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 23:02:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://github.com/' successfully
+
+2018-11-16 23:02:20 - [MESSAGE][PASSED] - Navigate to 'https://github.com/' successfully
+
+2018-11-16 23:02:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_The worlds leading software de/a_Sign in' is clicked on
+
+2018-11-16 23:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_The worlds leading software de/a_Sign in' is clicked on
+
+2018-11-16 23:02:22 - [TEST_STEP][PASSED] - setText: Text 'frogin21' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email addres'
+
+2018-11-16 23:02:22 - [MESSAGE][PASSED] - Text 'frogin21' is set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email addres'
+
+2018-11-16 23:02:22 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2018-11-16 23:02:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'
+
+2018-11-16 23:02:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2018-11-16 23:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit' is clicked on
+
+2018-11-16 23:02:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/span_New organization_dropdown' is clicked on
+
+2018-11-16 23:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/span_New organization_dropdown' is clicked on
+
+2018-11-16 23:02:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/a_Your gists' is clicked on
+
+2018-11-16 23:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/a_Your gists' is clicked on
+
+2018-11-16 23:02:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_GitHub/all_gist' is clicked on
+
+2018-11-16 23:02:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GitHub/all_gist' is clicked on
+
+2018-11-16 23:02:28 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-11-16 23:02:35 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-11-16 23:02:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-16 23:02:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-16 23:00:23 - [TEST_SUITE][FAILED] - Shopee_Test: Test Cases/3.Delete gist FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_GitHub/button_delete' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GitHub/button_delete' located by 'By.xpath: //button[@class = 'btn btn-sm btn-danger' and @type = 'submit']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542380676466.run(Script1542380676466.groovy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542384021839.run(TempTestSuite1542384021839.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-16 23:00:23 - [TEST_SUITE][FAILED] - Shopee_Test: Test Cases/3.Delete gist FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_GitHub/button_delete' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_GitHub/button_delete' located by 'By.xpath: //button[@class = 'btn btn-sm btn-danger' and @type = 'submit']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542380676466.run(Script1542380676466.groovy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542384021839.run(TempTestSuite1542384021839.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
